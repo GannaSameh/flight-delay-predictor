@@ -319,7 +319,7 @@ joblib.dump({
 from google.colab import files
 files.download('flight_delay_model.pkl')
 
-!pip install streamlit
+
 import streamlit as st
 import joblib
 import pandas as pd
